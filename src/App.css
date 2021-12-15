@@ -1,4 +1,5 @@
 .App {
+  transition-duration: .4s;
   max-width: 1280px;
   margin: auto;
   background-color: black;
@@ -23,7 +24,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(0, 0, 0);
   background-color: black;
 }
 
@@ -31,6 +32,7 @@
   color: #61dafb;
 }
 .black-bg{
+  transition-duration: .4s;
   /* height: 1000px;
   width: 100%; */
   /* width: 100vw;
@@ -39,7 +41,7 @@
   background-repeat: no-repeat;
   background-position: 0 0;
   background-size: cover;
-  background-image: url("");
+  background-image: url(https://raw.githubusercontent.com/DeadBanditz/banditzsite/main/src/assets/image.png);
 }
 @keyframes App-logo-spin {
   from {
