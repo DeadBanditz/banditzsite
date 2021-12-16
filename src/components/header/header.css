@@ -16,7 +16,7 @@
 }
 
 .header-control .navbar {
-    width: 100%;
+    width: 60%;
     /* background-color: #000000; */
     margin-top: 0px;
     padding-top: 0px;
@@ -121,14 +121,14 @@
         position: relative;
         /* padding-top: 20px; */
         /* padding-bottom: 20px; */
-        height: 1500px;
+        height: 1180px;
         background-repeat: none;
         background-position: 0% -20%;
     }
 
     .thePicture {
-        height: 1330px;
-        width: 2600px;
+        height: 1000px;
+        width: 2000px;
         border: solid #E8B331 10px;
         border-radius: 20px;
         background-color: #a14912;

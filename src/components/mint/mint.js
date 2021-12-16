@@ -81,10 +81,10 @@ function Mint() {
             <Container>
                 <Row>
                     <Col md={6} xs={12} className='mint-image'>
-                        <img src={MintGif} alt='mint gif' />
+                        <img src={"https://cdn.discordapp.com/attachments/914634855709560862/920797475256799322/IMG_1411.gif"} alt='mint gif' />
                     </Col>
                     <Col md={6} xs={12} className='mint-description'>
-                        <header>MINT YOUR <text style={{ color: "#88CDDB" }}>SOCIAL OWL</text>
+                        <header>MINT YOUR <text style={{ color: "#E8B331" }}>DEAD BANDIT</text>
                         </header>
                         <p style={{ textAlign: "center" }}>
 
@@ -108,7 +108,7 @@ function Mint() {
                             <span id="inputBox">{mintNum}</span>
                             <BsFilePlusFill color='white' size={40} onClick={() => plus_num()} />
                         </div>
-                        <p style={{marginTop: 0, marginBottom: 0}}>0.077 ETH + Gas</p>
+                        <p style={{marginTop: 0, marginBottom: 0}}>0.01 ETH + Gas</p>
                         {
                             blockchain.account === "" || blockchain.smartContract === null ?
                                 <div className="flex-column">

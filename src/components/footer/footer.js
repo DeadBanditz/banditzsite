@@ -18,7 +18,7 @@ class Footer extends React.Component {
                        {/* <a style={{textDecoration: "none", color:"white"}}target="_blank" rel="noopener noreferrer"href="https://instagram.com/"> <BsInstagram size={32} /></a>
                        <a style={{textDecoration: "none", color:"white"}}target="_blank" rel="noopener noreferrer"href="https://twitter.com/"> <BsTwitter size={32} /></a>
                        <a style={{textDecoration: "none", color:"white"}}target="_blank" rel="noopener noreferrer"href="https://discord.com/"> <BsDiscord size={32} />   </a>      */}
-                       <p style={{fontSize: 15}}><a target="_blank" rel="noopener noreferrer" href="https://metaversesolutions.ai/" style={{textDecoration: "none", color:"white", textAlign: "right"}}>Website by Metaverse Solutions, LLC</a></p>
+                       <p style={{fontSize: 15}}><a target="_blank" rel="noopener noreferrer" href="https://metaversesolutions.ai/" style={{textDecoration: "none", color:"#E8B331", textAlign: "right"}}>Website by Metaverse Solutions, LLC</a></p>
                     </div>
                 </Container>
             </div>

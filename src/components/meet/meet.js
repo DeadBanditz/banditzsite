@@ -5,6 +5,13 @@ import InfiniteCarousel from 'react-leaf-carousel';
 
 //import Assets
 import ImageBoy1 from '../../assets/boys/boy1.png';
+import ImageBoy2 from '../../assets/boys/boy2.png';
+import ImageBoy3 from '../../assets/boys/boy3.png';
+import ImageBoy4 from '../../assets/boys/boy4.png';
+import ImageBoy5 from '../../assets/boys/boy5.png';
+import ImageBoy6 from '../../assets/boys/boy6.png';
+import ImageBoy7 from '../../assets/boys/boy7.png';
+import ImageBoy8 from '../../assets/boys/boy8.png';
 
 //import CSS
 import './meet.css';
@@ -18,7 +25,7 @@ class Meet extends React.Component {
             <div className='meet-control'>
                 <Container>
                     <header style={{textAlign: "center"}}>
-                         PEEP <br /> <span>OUR OWLS!</span>
+                         WANTED: <br /> <span style={{ color: "#E8B331"}}>DEAD OR ALIVE!</span>
                     </header>
                 </Container>
                 <InfiniteCarousel
@@ -55,37 +62,28 @@ class Meet extends React.Component {
                                 scrollOnDevice={true}
                             >
                                 <div>
-                                    <img className="caroImg" src={"https://socialowls.s3.amazonaws.com/1.png"} alt='boy1' />
+                                    <img className="caroImg" src={ImageBoy1} alt='boy1' />
                                 </div>
                                 <div>
-                                    <img className="caroImg" src={"https://socialowls.s3.amazonaws.com/2.png"} alt='boy2' />
+                                    <img className="caroImg" src={ImageBoy2} alt='boy2' />
                                 </div>
                                 <div>
-                                    <img className="caroImg" src={"https://socialowls.s3.amazonaws.com/3.png"} alt='boy3' />
+                                    <img className="caroImg" src={ImageBoy3} alt='boy3' />
                                 </div>
                                 <div>
-                                    <img className="caroImg" src={"https://socialowls.s3.amazonaws.com/4.png"} alt='boy4' />
+                                    <img className="caroImg" src={ImageBoy4} alt='boy4' />
                                 </div>
                                 <div>
-                                    <img className="caroImg" src={"https://socialowls.s3.amazonaws.com/5.png"} alt='boy5' />
+                                    <img className="caroImg" src={ImageBoy5} alt='boy5' />
                                 </div>
                                 <div>
-                                    <img className="caroImg" src={"https://socialowls.s3.amazonaws.com/6.png"} alt='boy6' />
+                                    <img className="caroImg" src={ImageBoy6} alt='boy5' />
                                 </div>
                                 <div>
-                                    <img className="caroImg" src={"https://socialowls.s3.amazonaws.com/7.png"} alt='boy6' />
+                                    <img className="caroImg" src={ImageBoy7} alt='boy5' />
                                 </div>
                                 <div>
-                                    <img className="caroImg" src={"https://socialowls.s3.amazonaws.com/8.png"} alt='boy6' />
-                                </div>
-                                <div>
-                                    <img className="caroImg" src={"https://socialowls.s3.amazonaws.com/9.png"} alt='boy6' />
-                                </div>
-                                <div>
-                                    <img className="caroImg" src={"https://socialowls.s3.amazonaws.com/10.png"} alt='boy6' />
-                                </div>
-                                <div>
-                                    <img className="caroImg" src={"https://socialowls.s3.amazonaws.com/11.png"} alt='boy6' />
+                                    <img className="caroImg" src={ImageBoy8} alt='boy5' />
                                 </div>
                 </InfiniteCarousel>
                 

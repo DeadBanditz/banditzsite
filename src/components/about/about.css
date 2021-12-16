@@ -35,3 +35,8 @@
 .about-description header span {
     color: #FF9859;
 }
+
+@font-face {
+    font-family: newfont;
+    src: url(/src/ReporterRegular.ttf);
+}

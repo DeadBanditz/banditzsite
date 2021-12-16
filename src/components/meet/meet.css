@@ -43,8 +43,9 @@
 }
 
 .caroImg {
-    border: solid black 10px;
+    border: solid black 5px;
     border-radius: 20px;
+    background-color: black;
 }
 
 .slide-arrows a {

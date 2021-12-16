@@ -49,8 +49,8 @@ class App extends React.Component {
         
         <Mint />
         <RoadMap />
-        <FounderThing />
-        <JoinCommunity />
+        {/* <FounderThing /> */}
+        {/* <JoinCommunity /> */}
         <Footer />
       </div>
     );
