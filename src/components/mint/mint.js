@@ -78,63 +78,62 @@ function Mint() {
     }
     return (
         <div className='mint-control' id='mint'>
-            <Container>
-                <Row>
-                    <Col md={6} xs={12} className='mint-image'>
-                        <img src={"https://cdn.discordapp.com/attachments/914634855709560862/920797475256799322/IMG_1411.gif"} alt='mint gif' />
-                    </Col>
-                    <Col md={6} xs={12} className='mint-description'>
-                        <header>MINT YOUR <text style={{ color: "#E8B331" }}>DEAD BANDIT</text>
-                        </header>
-                        <p style={{ textAlign: "center" }}>
+            <Container style={{textAlign: "center"}}>
+                <img className="mintimage" src={"https://cdn.discordapp.com/attachments/197452746293641216/920889809860448276/DeadBanditz_MintNow-01.png"} alt='mint gif' />
+                <Row style={{ textAlign: "center" }}>
+                    <text className='mint-description'>
+                    {/* <header><text style={{ color: "#E8B331" }}><br/></text>
+                    </header> */}
+                    <p style={{ textAlign: "center" }}>
 
-                        Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum 
-                        Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum 
-                        Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum 
-                        Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum 
-                        Lorem ipsum Lorem ipsum 
-                            <br/><br/>
-                            Lorem ipsum Lorem ipsum 
-                            {/* <text style={{fontWeight: "bold"}}>
+                        Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
+                        Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
+                        Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
+                        Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
+                        Lorem ipsum Lorem ipsum
+                        <br /><br />
+                        Lorem ipsum Lorem ipsum
+                        {/* <text style={{fontWeight: "bold"}}>
                                 <a style={{textDecoration: "none", color: "white", fontWeight: 900, fontSize: 20}}href="https://instagram.com/dickpixnft"> Instagram </a>
                             </text> 
                             and 
                             <text style={{fontWeight: "bold"}}>
                                 <a style={{textDecoration: "none", color: "white", fontWeight: 900, fontSize: 20}}href="https://twitter.com/thedickpixnft"> Twitter!</a>
                             </text> */}
-                            </p>
-                        <div className='number-control'>
-                            <BsFileMinusFill color='white' size={40} onClick={() => minus_num()} />
-                            <span id="inputBox">{mintNum}</span>
-                            <BsFilePlusFill color='white' size={40} onClick={() => plus_num()} />
-                        </div>
-                        <p style={{marginTop: 0, marginBottom: 0}}>0.01 ETH + Gas</p>
-                        {
-                            blockchain.account === "" || blockchain.smartContract === null ?
-                                <div className="flex-column">
-                                    <button className='ybutton'
-                                        onClick={(e) => {
-                                            console.log("--------")
-                                            // e.preventDefault();
-                                            // dispatch(connect());
-                                            // getData();
-                                        }}>COMING SOON</button>
-                                    {blockchain.errorMsg !== "" ? (
-                                        <div style={{ textAlign: "center", fontSize: 20, color: "white" }}>
-                                            {blockchain.errorMsg}
-                                        </div>
-
-                                    ) : null}
-                                </div>
-                                :
+                    </p>
+                    <div className='number-control'>
+                        <BsFileMinusFill color='white' size={40} onClick={() => minus_num()} />
+                        <span id="inputBox">{mintNum}</span>
+                        <BsFilePlusFill color='white' size={40} onClick={() => plus_num()} />
+                    </div>
+                    <p style={{ marginTop: 0, marginBottom: 0 }}>0.01 ETH + Gas</p>
+                    {
+                        blockchain.account === "" || blockchain.smartContract === null ?
+                            <div className="flex-column">
                                 <button className='ybutton'
                                     onClick={(e) => {
+                                        console.log("--------")
                                         e.preventDefault();
-                                        claimNFTs(1);
+                                        dispatch(connect());
                                         getData();
-                                    }}>{claimingNft ? "BUSY" : "MINT"}</button>
-                        }
-                    </Col>
+                                    }}>CONNECT</button>
+                                {blockchain.errorMsg !== "" ? (
+                                    <div style={{ textAlign: "center", fontSize: 20, color: "white" }}>
+                                        {blockchain.errorMsg}
+                                    </div>
+
+                                ) : null}
+                            </div>
+                            :
+                            <button className='ybutton'
+                                onClick={(e) => {
+                                    e.preventDefault();
+                                    claimNFTs(1);
+                                    getData();
+                                }}>{claimingNft ? "BUSY" : "MINT"}</button>
+                    }
+                    <text className='mint-description'></text>
+                    </text>
                 </Row>
             </Container>
         </div>

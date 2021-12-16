@@ -1,5 +1,5 @@
 .mint-image img {
-    width: 100%;
+    width: 50%;
     border: solid black 10px;
     border-radius: 20px;
 }
@@ -10,6 +10,7 @@
     /* #88CDDB */
     padding-top: 60px;
     padding-bottom: 60px;
+    text-align: "center";
 }
 
 
@@ -78,4 +79,16 @@
 .flex-column{
     display: flex;
     flex-direction: column;
+}
+
+.mintimage {
+    width: 80%;
+    border: solid 10px #E8B331;
+    padding-left: 100px;
+    padding-right: 100px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    background-image: url(https://images4.alphacoders.com/696/696845.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
