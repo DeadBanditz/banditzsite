@@ -1,6 +1,6 @@
 .header-control {
     /* background-image: url('../../assets/DickBackground.png'); */
-    background-color: #172A55;
+    /* background-color: #172A55; */
     /* this can be changed to header-back or dickbackground */
     display: flex;
     flex-direction: column;
@@ -16,12 +16,12 @@
 }
 
 .header-control .navbar {
-    width: 80%;
-    background-color: #172A55;
+    width: 100%;
+    /* background-color: #000000; */
     margin-top: 0px;
     padding-top: 0px;
     border-radius: 20px;
-    border: solid black 10px;
+    /* border: solid #E8B331 10px; */
     /* outline: 5px solid black; */
     /* box-shadow: 0 0 0 3px rgb(0, 0, 0); */
 }
@@ -30,14 +30,26 @@
     display: flex;
     align-items: center;
 }
-.navbar-nav .nav-link{
-    color: white!important;
+
+.navbar-nav .nav-link {
+    transition-duration: .4s;
+    color: white !important;
     font-size: 30px;
     font-weight: 700;
+    font-family: newfont;
+    background: -webkit-linear-gradient(#E8B331, #E8B331);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition-duration: .4s;
 }
 
-.navbar-nav .nav-link:hover{
-    color: #88CDDB!important;
+.navbar-nav .nav-link:hover {
+    transition-duration: .4s;
+    color: #88CDDB !important;
+    background: -webkit-linear-gradient(white, white);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition-duration: .4s;
 }
 
 .header-content {
@@ -49,7 +61,7 @@
 
 @font-face {
     font-family: newfont;
-    src: url(/src/newfont.ttf);
+    src: url(/src/ReporterRegular.ttf);
 }
 
 .header-content h1 {
@@ -84,6 +96,7 @@
     font-weight: 700;
     cursor: pointer;
 }
+
 .nav-item :hover {
     color: blue;
 }
@@ -98,26 +111,26 @@
 
 @media (min-width: 767px) {
     .header-control {
-        background-image: url('../../assets/wood.jpg');
+        /* background-image: url('../../assets/OPENSEA_Banner.png'); */
+        background-color: black;
         /* this can be changed to header-back or dickbackground */
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: space-between;
         position: relative;
-        padding-top: 20px;
-        padding-bottom: 20px;
-        height: 800px;
-        background-repeat: repeat;
-        background-position: 100% 40%;
+        /* padding-top: 20px; */
+        /* padding-bottom: 20px; */
+        height: 1500px;
+        background-repeat: none;
+        background-position: 0% -20%;
     }
 
     .thePicture {
-        height: 450px;
-        border: solid black
-         10px;
+        height: 1330px;
+        width: 2600px;
+        border: solid #E8B331 10px;
         border-radius: 20px;
-        padding: 0px;
         background-color: #a14912;
     }
 }

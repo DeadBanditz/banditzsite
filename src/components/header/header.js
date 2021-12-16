@@ -58,7 +58,7 @@ class Header extends React.Component {
                                 <Nav className="me-auto">
                                 </Nav>
                                 <Nav>
-                                    <Nav.Link style={{fontWeight: 900}}
+                                    <Nav.Link
                                         onClick={onMintClick} >MINT</Nav.Link>
                                     {/* <Nav.Link style={{fontWeight: 900}}
                                         onClick={onTeamClick} >ARTIST</Nav.Link> */}
@@ -71,7 +71,7 @@ class Header extends React.Component {
                                     {/* <Nav.Link> */}
                                     
                                     <Nav.Link style={{fontWeight: 900}}
-                                        onClick={openSea}>OPENSEA</Nav.Link>
+                                        onClick={openSea}>THE LEGEND</Nav.Link>
                                         <text style={{width: 20}}></text>
                                         <div>
                        <a style={{textDecoration: "none", color:"white", paddingRight: 10}}target="_blank" rel="noopener noreferrer"href="https://instagram.com/socialowlsnft"> <BsInstagram size={32} /></a>

@@ -28,7 +28,7 @@ class App extends React.Component {
   componentDidMount(){
     this.timerID = setTimeout(
       () => this.clearBackGround(),
-      2000
+      4000
     );
   }
 

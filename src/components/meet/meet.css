@@ -1,9 +1,9 @@
 .meet-control {
     padding-top: 40px;
     padding-bottom: 60px;
-    background-image: url("../../assets/wood.jpg");
+    background-image: url("https://cdn.discordapp.com/attachments/918955497590235136/920837611252240424/COLORCORRECTED_jared-verdi-PNKwdJ8WetM-unsplash.png");
     background-size: cover;
-    
+
     /* background-color: #FFE1C9; */
 }
 
@@ -47,7 +47,7 @@
     border-radius: 20px;
 }
 
-.slide-arrows a{
+.slide-arrows a {
     cursor: pointer;
     background-color: #c8ff00;
     display: flex;
