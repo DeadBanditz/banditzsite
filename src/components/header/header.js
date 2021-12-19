@@ -55,8 +55,8 @@ class Header extends React.Component {
                             <Navbar.Brand href="#home">
                                 <img src={Logo} width={100} height={100} alt='logo' />
                             </Navbar.Brand>
-                            <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-                            <Navbar.Collapse id="responsive-navbar-nav">
+                            <Navbar.Toggle aria-controls="responsive-navbar-nav" style={{backgroundColor: "#E8B331"}}/>
+                            <Navbar.Collapse id="responsive-navbar-nav" >
                                 <Nav className="me-auto">
                                 </Nav>
                                 <Nav>

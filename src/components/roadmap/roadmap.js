@@ -3,6 +3,7 @@ import { Col, Container, Row } from "react-bootstrap";
 
 //import CSS
 import './roadmap.css';
+import NewRoadMap from '../newroadmap/newroadmap';
 
 //import Assets
 import roadmap from '../../assets/Roadmap.mp4';
@@ -51,13 +52,13 @@ class RoadMap extends React.Component {
 
     render() {
         return (
-            <div className='roadmap-control' id='roadmap' style={{ textAlign: "center" }}>
+            <div className='roadmap-control' id='roadmap' style={{ textAlign: "center", paddingTop: 50, paddingBottom: 50 }}>
                 <Container style={{ backgroundColor: "black", padding: 30, border: "solid #E8B331 10px", borderRadius: 20 }}>
-                    <header style={{ fontWeight: 900, color:"#E8B331" }}><span>THE DEADBANDITZ</span> <br/> ROADMAP</header>
+                    <header style={{ fontWeight: 900, color:"#E8B331" }}><span>DEADBANDITZ</span> <br/> ROADMAP</header>
                     <p className='roadmap-description'>
                         Welcome to the Dead Banditz Community.<br/>Now that you have jumped on the wagon, strap in for a life changing ride!
                     </p>
-                    <img  className="roadimage"style={{border:"solid 5px black", borderRadius: 20}}src="https://github.com/DeadBanditz/banditzsite/blob/main/src/assets/wood.png?raw=true" />
+                    {/* <img  className="roadimage"style={{border:"solid 5px black", borderRadius: 20}}src="https://github.com/DeadBanditz/banditzsite/blob/main/src/assets/wood.png?raw=true" /> */}
                     <Row style={{ paddingTop: 30, alignContent: "center", justifyContent: "center", textAlign: "center" }}>
                         <Col style={{ color: "white", alignContent: "center", justifyContent: "center", textAlign: "center" }}>
                             {
@@ -78,6 +79,7 @@ class RoadMap extends React.Component {
                             }
                         </Col>
                     </Row>
+                    <NewRoadMap />
                 </Container>
             </div>
 

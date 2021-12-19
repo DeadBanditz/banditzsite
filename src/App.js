@@ -12,6 +12,8 @@ import TopItems from './components/top-items/top-items';
 import Mint from './components/mint/mint';
 import About from './components/about/about';
 import Meet from './components/meet/meet';
+import NewTeam from './components/newteam/newteam';
+import NewRoadMap from './components/newroadmap/newroadmap';
 import FounderThing from './components/founderthing/founderthing';
 // import il from './assets/CenterPic.png';
 import './assets/newStyle.css';
@@ -49,8 +51,11 @@ class App extends React.Component {
         
         <Mint />
         <RoadMap />
+        {/* <NewRoadMap /> */}
         {/* <FounderThing /> */}
         {/* <JoinCommunity /> */}
+        <NewTeam />
+        <TopItems />
         <Footer />
       </div>
     );

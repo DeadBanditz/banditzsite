@@ -20,3 +20,23 @@
 .footer div svg {
     margin-left: 20px;
 }
+
+.banditz {
+    font-size: 15px;
+    display: none;
+}
+
+.metaverse {
+    font-size: 15px;
+}
+
+@media (min-width: 767px) {
+    .banditz {
+        font-size: 15px;
+        display:flex;
+    }
+    
+    .metaverse {
+        font-size: 15px;
+    }
+}
