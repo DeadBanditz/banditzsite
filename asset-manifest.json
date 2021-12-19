@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/banditzsite/static/css/main.91d1b84e.chunk.css",
-    "main.js": "/banditzsite/static/js/main.d2c65125.chunk.js",
-    "main.js.map": "/banditzsite/static/js/main.d2c65125.chunk.js.map",
-    "runtime-main.js": "/banditzsite/static/js/runtime-main.908482ce.js",
-    "runtime-main.js.map": "/banditzsite/static/js/runtime-main.908482ce.js.map",
+    "main.css": "/banditzsite/static/css/main.a685529b.chunk.css",
+    "main.js": "/banditzsite/static/js/main.b3276d35.chunk.js",
+    "main.js.map": "/banditzsite/static/js/main.b3276d35.chunk.js.map",
+    "runtime-main.js": "/banditzsite/static/js/runtime-main.4b7a4291.js",
+    "runtime-main.js.map": "/banditzsite/static/js/runtime-main.4b7a4291.js.map",
     "static/css/2.d8cb5cde.chunk.css": "/banditzsite/static/css/2.d8cb5cde.chunk.css",
-    "static/js/2.786f954a.chunk.js": "/banditzsite/static/js/2.786f954a.chunk.js",
-    "static/js/2.786f954a.chunk.js.map": "/banditzsite/static/js/2.786f954a.chunk.js.map",
-    "static/js/3.dafc65f9.chunk.js": "/banditzsite/static/js/3.dafc65f9.chunk.js",
-    "static/js/3.dafc65f9.chunk.js.map": "/banditzsite/static/js/3.dafc65f9.chunk.js.map",
+    "static/js/2.35748ac0.chunk.js": "/banditzsite/static/js/2.35748ac0.chunk.js",
+    "static/js/2.35748ac0.chunk.js.map": "/banditzsite/static/js/2.35748ac0.chunk.js.map",
+    "static/js/3.85a46d46.chunk.js": "/banditzsite/static/js/3.85a46d46.chunk.js",
+    "static/js/3.85a46d46.chunk.js.map": "/banditzsite/static/js/3.85a46d46.chunk.js.map",
     "index.html": "/banditzsite/index.html",
     "static/css/2.d8cb5cde.chunk.css.map": "/banditzsite/static/css/2.d8cb5cde.chunk.css.map",
-    "static/css/main.91d1b84e.chunk.css.map": "/banditzsite/static/css/main.91d1b84e.chunk.css.map",
-    "static/js/2.786f954a.chunk.js.LICENSE.txt": "/banditzsite/static/js/2.786f954a.chunk.js.LICENSE.txt",
+    "static/css/main.a685529b.chunk.css.map": "/banditzsite/static/css/main.a685529b.chunk.css.map",
+    "static/js/2.35748ac0.chunk.js.LICENSE.txt": "/banditzsite/static/js/2.35748ac0.chunk.js.LICENSE.txt",
     "static/media/Chibi Labs.1df3a3d3.jpeg": "/banditzsite/static/media/Chibi Labs.1df3a3d3.jpeg",
     "static/media/Collection_GIF.6180d650.gif": "/banditzsite/static/media/Collection_GIF.6180d650.gif",
     "static/media/join-community.css": "/banditzsite/static/media/DickPix.be6bd296.png",
     "static/media/OPENSEA_Banner.bd3068e9.png": "/banditzsite/static/media/OPENSEA_Banner.bd3068e9.png",
     "static/media/about.css": "/banditzsite/static/media/ReporterRegular.d804114c.ttf",
     "static/media/Roadmap.7d8c759b.mp4": "/banditzsite/static/media/Roadmap.7d8c759b.mp4",
-    "static/media/newteam.css": "/banditzsite/static/media/StrangerThings-Regular.20413700.ttf",
+    "static/media/faqmapitem.css": "/banditzsite/static/media/StrangerThings-Regular.20413700.ttf",
     "static/media/boy1.9bc2a723.png": "/banditzsite/static/media/boy1.9bc2a723.png",
     "static/media/boy2.61cd00f4.png": "/banditzsite/static/media/boy2.61cd00f4.png",
     "static/media/boy3.09e5c2a7.png": "/banditzsite/static/media/boy3.09e5c2a7.png",
@@ -41,10 +41,10 @@
     "static/media/owl.b740aad4.png": "/banditzsite/static/media/owl.b740aad4.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.908482ce.js",
+    "static/js/runtime-main.4b7a4291.js",
     "static/css/2.d8cb5cde.chunk.css",
-    "static/js/2.786f954a.chunk.js",
-    "static/css/main.91d1b84e.chunk.css",
-    "static/js/main.d2c65125.chunk.js"
+    "static/js/2.35748ac0.chunk.js",
+    "static/css/main.a685529b.chunk.css",
+    "static/js/main.b3276d35.chunk.js"
   ]
 }

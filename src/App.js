@@ -15,6 +15,7 @@ import Meet from './components/meet/meet';
 import NewTeam from './components/newteam/newteam';
 import NewRoadMap from './components/newroadmap/newroadmap';
 import FounderThing from './components/founderthing/founderthing';
+import FaqMap from './components/faqmap/faqmap';
 // import il from './assets/CenterPic.png';
 import './assets/newStyle.css';
 
@@ -55,7 +56,8 @@ class App extends React.Component {
         {/* <FounderThing /> */}
         {/* <JoinCommunity /> */}
         <NewTeam />
-        <TopItems />
+        {/* <TopItems /> */}
+        <FaqMap />
         <Footer />
       </div>
     );

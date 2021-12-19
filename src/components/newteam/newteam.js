@@ -80,7 +80,7 @@ class Team extends React.Component {
             <div id="team" style={{backgroundColor: "black"}}>
                 <div className="g-relative team-layout " id="team" style={{maxWidth: 1000}}>
                     <div className="team-title sm:text-5xl" style={{ textAlign: "center", paddingLeft: 30, marginBottom: 0, paddingBottom: 40, paddingTop: 40 }}>
-                        <span>MEET OUR TEAM</span>
+                        <span>THE GANG</span>
                     </div>
                     <div className="g-flex-justify-center">
                         <div>
