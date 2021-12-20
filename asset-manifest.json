@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/banditzsite/static/css/main.a685529b.chunk.css",
-    "main.js": "/banditzsite/static/js/main.b3276d35.chunk.js",
-    "main.js.map": "/banditzsite/static/js/main.b3276d35.chunk.js.map",
+    "main.css": "/banditzsite/static/css/main.247290fa.chunk.css",
+    "main.js": "/banditzsite/static/js/main.b905ee74.chunk.js",
+    "main.js.map": "/banditzsite/static/js/main.b905ee74.chunk.js.map",
     "runtime-main.js": "/banditzsite/static/js/runtime-main.4b7a4291.js",
     "runtime-main.js.map": "/banditzsite/static/js/runtime-main.4b7a4291.js.map",
     "static/css/2.d8cb5cde.chunk.css": "/banditzsite/static/css/2.d8cb5cde.chunk.css",
@@ -12,7 +12,7 @@
     "static/js/3.85a46d46.chunk.js.map": "/banditzsite/static/js/3.85a46d46.chunk.js.map",
     "index.html": "/banditzsite/index.html",
     "static/css/2.d8cb5cde.chunk.css.map": "/banditzsite/static/css/2.d8cb5cde.chunk.css.map",
-    "static/css/main.a685529b.chunk.css.map": "/banditzsite/static/css/main.a685529b.chunk.css.map",
+    "static/css/main.247290fa.chunk.css.map": "/banditzsite/static/css/main.247290fa.chunk.css.map",
     "static/js/2.35748ac0.chunk.js.LICENSE.txt": "/banditzsite/static/js/2.35748ac0.chunk.js.LICENSE.txt",
     "static/media/Chibi Labs.1df3a3d3.jpeg": "/banditzsite/static/media/Chibi Labs.1df3a3d3.jpeg",
     "static/media/Collection_GIF.6180d650.gif": "/banditzsite/static/media/Collection_GIF.6180d650.gif",
@@ -44,7 +44,7 @@
     "static/js/runtime-main.4b7a4291.js",
     "static/css/2.d8cb5cde.chunk.css",
     "static/js/2.35748ac0.chunk.js",
-    "static/css/main.a685529b.chunk.css",
-    "static/js/main.b3276d35.chunk.js"
+    "static/css/main.247290fa.chunk.css",
+    "static/js/main.b905ee74.chunk.js"
   ]
 }
