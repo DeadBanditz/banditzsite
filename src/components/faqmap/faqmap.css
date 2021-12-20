@@ -1,7 +1,6 @@
 .roadmap-control header span {
     color: #FF9859;
     /* text-shadow: 1px 0 20px rgb(200 255 0 / 31%); */
-    text-align: center;
     color: white;
 }
 
@@ -16,7 +15,6 @@
     padding-bottom: 0px;
     padding-top: 0px;
     background-color: #FFE1C9;
-    text-align: center;
     color: white;
 }
 
@@ -26,7 +24,6 @@
     font-weight: 700;
     color: rgb(0, 0, 0);
     margin-bottom: 20px;
-    text-align: center;
     color: #88CDDB;
     font-family: newerfont;
 }
@@ -34,13 +31,11 @@
 .roadmap-description {
     font-size: 18px;
     color: white;
-    text-align: center;
     font-weight: 900;
 }
 
 .roadmap-control img {
     /* width: 100%; */
-    text-align: center;
     color: black;
 }
 
@@ -48,7 +43,6 @@
     border: solid black 10px;
     border-radius: 20px;
     width: 100%;
-    text-align: center;
     color: black;
 }
 

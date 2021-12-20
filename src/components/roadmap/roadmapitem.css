@@ -1,6 +1,5 @@
 .collapse-header-control {
     display: flex;
-    align-items: center;
     justify-content: space-between;
     cursor: pointer;
     padding-top: 10px;
@@ -11,8 +10,6 @@
 .collapse-header {
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: center;
 }
 
 .collapse-header h4 {

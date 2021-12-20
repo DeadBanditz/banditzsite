@@ -25,7 +25,7 @@ class Meet extends React.Component {
             <div className='meet-control'>
                 <Container>
                     <header style={{textAlign: "center"}}>
-                         WANTED: <br /> <span style={{ color: "#E8B331"}}>DEAD OR ALIVE!</span>
+                         WANTED: <br/><text style={{color: "#E8B331"}}>THE LEGENDARY DEAD BANDITZ GANG</text><br /> <span style={{ color: "white"}}>DEAD OR ALIVE</span>
                     </header>
                 </Container>
                 <InfiniteCarousel

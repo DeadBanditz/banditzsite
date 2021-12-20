@@ -15,28 +15,24 @@ class RoadMap extends React.Component {
         this.state = {
             roadmaps: [
                 {
-                    tag: 'Q1 2022',
+                    tag: '1',
                     title: "What are Dead Banditz?",
-                    content: "The Dead Banditz project is a collection of 10,000 unique western styled banditz, that will live on the blockchain as an NFT. The Dead Banditz collection will have a game developed around these unique digital artworks, which will be a game of strategy, raiding, looting, bounty hunting for other Dead Banditz which will reward holders with our $DSG currency."
+                    content: "Dead Banditz are a collection of 9999 unique western banditz that will live on the blockchain as a Non Fungible Token."
                 },
                 {
-                    tag: 'Q2 2022',
-                    title: "When does minting go live, is there a Presale?",
-                    content: "The public sale will take place on 01/14/2022 beginning at 8PM (GMT-5). A pre sale will take place on the 01/13/2022 and will begin at 7PM (GMT-5) for O.G mint pass members and 8PM (GMT-5) for whitelist members."
+                    tag: '2',
+                    title: "Is there a website?",
+                    content: "https://www.deadbanditz.io/"
                 },
                 {
                     tag: 'Ever going (Early Q1 commencement)',
-                    title: "How do I win the $2,000,000 USD worth of ETH giveaway?",
-                    content: "To be eligible to recieve the $2,000,000USD ETH reward, you must purchase one Dead Banditz NFT from our pre sale or mint sale, one NFT is one opportunity to win, the more you purchase the more chances you have.",
-                    content2: "The winner of this gigantic reward, will receive $2,000,000USD worth of ETH and it will be paid to the winner if the collection sells out before the reveal event, the reveal will take place 48 hours after the main sale.",
-                    content3: "The lucky person who mints ‘Golden Gunz Gill’ our 1/1 infamous Banditz leader, will need to contact us via email at shoot@deadbanditz.io (email communication is to ensure the identity of the winner is private and to protect the wallet of the winner, only the winner and the owners will communicate and a verification process will take place to guarantee ownership & security) to verify the wallet they would like the $2,000,000 USD ETH reward paid out too.",
-                    content4: "*if the Golden Gunz Gill NFT is sold before reveal the person who sells it before reveal is not eligible to receive the reward, only the person that has ownership at time of reveal."
+                    title: "When does minting go live, is there a Presale?",
+                    content: "The public sale will take place on the 01/31/2022, starting at 7PM (GMT-5), the Pre-sale will take place on 01/29/2022 at 7PM (GMT-5) with our “GOLDEN TICKET” sale beginning at 6PM (GMT-5) on 01/29/2022."
                 },
                 {
                     tag: 'Q3 2022',
-                    title: "How do I even buy an NFT?",
-                    content: "We will provide a step by step guide on how to purchase a Dead Banditz NFT on our discord channel *How to buy*",
-                    content2: "If you miss out purchasing on the pre sale or main sale, you may be lucky to enough to buy a Dead Banditz NFT from OpenSea, our recommended secondary marketplace. (This also might be challenging considering we are giving each holder a chance to be reward $2,740 USD worth of ETH each day for a year just simply by holding the NFT)"
+                    title: "How do I win the $2,000,000 USD worth of ETH giveaway?",
+                    content: "To win this reward, you must purchase a minimum of 1 Dead Banditz NFT, 1 Dead Banditz NFT is one chance to be rewarded with $2,000,000USD worth of ETH. The 1 lucky holder of the Legendary Dead Bandit at the time of the reveal will need to contact us via Discord and be able to verify the address of their wallet for this Dead Banditz NFT and verify wallet address to receive the prize money, once verified the holder will be paid $2,000,000 USD worth of ETH, this promotion is available to all holders worldwide."
                 },
                 {
                     tag: 'Q4 2022',
@@ -46,44 +42,47 @@ class RoadMap extends React.Component {
                 {
                     tag: 'Q4 2022',
                     title: "How much will Royalties be?",
-                    content: "Royalties will be 10% (Dead Banditz) + 2.5 % (Opeansea) for a total of 12.5%. This is to try and deter any flippers early on. One week after the Dead Banditz collection is revealed, the royalties will move to 7.5% (Dead Banditz) + 2.5% (Opensea) for a total of 10%. Once the first week has passed and the royalties have gone down, 4% of the Dead Banditz royalties from each sale will be put back into the community fund to ensure our community is one of the most lucrative for investors."
+                    content: "Royalties will be 10% (Dead Banditz) + 2.5 % (Opeansea) for a total of 12.5%. This is to try and deter any flippers early on. 1 week after the reveal event, the royalties will move to 7.5% (Dead Banditz) + 2.5% (Opensea) for a total of 10%. 4% of our royalties from each sale will be put back into the community fund to continue funding giveaways and exclusive events."
                 },
                 {
                     tag: 'Q4 2022',
                     title: "How many can I buy at once?",
-                    content: "If you are an O.G member (150 members only) you will receive a pass that allows you to purchase up to 5 Dead Banditz per transaction with a MAX wallet hold of 20, O.G members will gain one hour early access the pre sale event. During the pre sale you will be able to purchase up to 10 Dead Banditz NFTs per transaction. Once the public sale has commenced you will be able to mint up to 10 Dead Banditz NFTs per transaction with a max wallet capacity of 100. Our $2,000,000USD ETH reward is sure to change the life of the lucky winner, so do not let this opportunity pass you by."
+                    content: "If you are an OG member (150 members ony) your golden ticket will allow you to MINT 5 Dead Banditz with a wallet maximum of 20 Dead Banditz during your 1-hour early access sale. If you are lucky enough to receive a white ticket you will be able to 10 Dead Banditz per transaction with a maximum of 50 per wallet. During public sale, there will be a maximum of 25 Dead Banditz per transaction with a wallet limit of 100. Our $2,000,000 USD ETH reward is sure to change someones life, so do not miss the opportunity to take advantage of this."
                 },
                 {
                     tag: 'Q4 2022',
                     title: "What is an O.G Mint pass & other passes?",
-                    content: "The O.G mint pass will be rewarded to the first 150 members of our discord server. The holder of an O.G mint pass will be be able to access our pre sale one hour before the remaining whitelist members will get access to the pre sale event.",
-                    content2: "You will have an opportunity to mint up to and no more of 5 Dead Banditz NFTs per transaction with a wallet maximum of 20 Dead Banditz in the one hour early access period, you will then be able to mint up to 10 in the pre sale and public sale.",
-                    content3: "There will be a whitelist for members of the discord who reach level 10 by inviting up to 10 people to the discord server. (non of this spamming chat nonsense)",
-                    content4: "If you hate waiting and want to obtain a whitelist pass then we will be selling a pre sale mint pass for 0.05ETH – funds from this will be put towards the community fund for future promotions, giveaways and games for our “GOLDEN GUNZ” (only available to holders of a Dead Banditz NFT)"
+                    content: "The OG Golden Ticket will be rewarded to the first 150 members to join the discord server.",
+                    content2: "The holder of an OG Golden Ticket will have 1-hour early access to pre-sale. If are receive a White Ticket you will gain access to our pre-sale event, being rewarded a White Ticket is quite easy, all you need to do is achieve level 10 on our discord server and to get there all you need to do is invite 10 people and have them join the discord."                    
                 },
                 {
                     tag: 'Q4 2022',
                     title: "How many Dead Banditz are there? will you be holding any?",
-                    content: "There will be 10,000 Dead Banditz in total, 9,900 will be available. We will be holding 100 Dead Banditz to give to friends/family, rewards for community members and for promotional giveaways, we will not have access to the 100 held Dead Banditz, by saying this we will have no knowledge of what these NFTs will be, if by chance any of the 11 Legendary Dead Banditz are in these 100, we will be putting funds directly into the community fund and $2,740USD ETH reward will be increased depending on the amount that is put back into the community fund, for example here are two scenarios, if “Golden Gunz Gill” is in the 100 NFTs held back, our $2,000,000 worth of ETH will be left in the community fund and the 365 day reward will increase to $8,219USD worth of ETH per day instead of the previously advised amount of $2,740USD worth of ETH per day. If we have one of the ten Legendary Dead Banditz which consists of a $15,000USD worth of ETH reward, this amount will be left in the community fund and the daily reward will increase from $2,740USD worth of ETH to $2,780USD worth of ETH."
+                    content: "There will be 9999 Dead Banditz in total, 9888 will be available. We will be holding 111 Dead Banditz to give to friends/family, rewards for community members and for giveaways."
                 },
                 {
                     tag: 'Q4 2022',
                     title: "Will I see my Dead Banditz NFT straight after I purchase from your website?",
-                    content: "No, the Dead Banditz collection will be revealed 48 hours after the public sale. Your Dead Banditz NFT will be viewable from 01/16/2022 @ 8PM (GMT-5) on OpenSea."
+                    content: "No, all the Dead Banditz will be revealed 48 hours after the public sale, that means the Dead Banditz will be visible on the 02/02/2022 @ 7PM (GMT-5)."
                 },
                 {
                     tag: 'Q4 2022',
                     title: "Why would I buy a Dead Banditz NFT anyway?",
-                    content: "Minting a Dead Banditz NFT, will grant you exclusive access to our “GOLDEN GUNZ” channel in our discord server, access to this group will grant you an opportunity to be apart of our daily giveaway of $2,740USD worth of ETH.",
-                    content2: "This giveaway will be reward one time per day for 365 days.",
-                    content3: " The community fund will contain $1,000,000USD worth of ETH (after the $2,150,000 has been given to winners) which will come directly from the sale of collection one and the contract for these funds will be publicly visible by viewing our official links channel in discord. After the giveaway these funds will support the longevity of the giveaway.",
-                    content4: " You will also have early access to the next 4 collections that Dead Societies (company) will be releasing, these 4 collections will all be patches for the game that is being developed.",
-                    content5: " We may continue to carry on the giveaway past the 365 days, as a percentage of the dead banditz resale royalties will be paid directly into the community fund to allow us to continue the growth of the project and develop further collections under this branding."
+                    content: "Buying a Dead Banditz NFT, will give you access to our exclusive GOLDEN GUNS channel in our discord server, this invite will give you an opportunity to receive a daily reward for simply holding your Dead Bandit.",
+                    content2: "We will being giving away $1,000,000 USD worth of ETH over the 365 days which is $2,740 USD worth of ETH per day.",
+                    content3: "We will reward this by our giveaway bot randomly generating your NFT number, it will range between 1-9999.",
+                    content4: "You will be contacted by a team member to verify ownership then payment will be made instantly after verification, you will have 1 week to verify otherwise payment stays in community fund.",
+                    content5: "To receive a payout, you MUST own a minimum of 1 Dead Banditz NFT."
                 },
                 {
                     tag: 'Q4 2022',
                     title: "What rights do I have to my Dead Banditz NFT?",
-                    content: "You own your Dead Banditz NFT and have full commercial rights to your NFT. You can do whatever you like with it for as long as you own the NFT. You could create and sell merch, you can create derivatives. The only thing you don’t have the rights to is the Dead Banditz or Dead Societies branding and logo."
+                    content: "You own your Dead Banditz NFT and have full commercial rights to your NFT. You can do whatever you like with it for as long as you own the NFT. You could create and sell merch, you can create derivatives. The only thing you don't have the rights to is the Dead Banditz or Dead Societies branding and logo."
+                },
+                {
+                    tag: 'Q4 2022',
+                    title: "What am I buying exactly?",
+                    content: "You are buying a Dead Banditz NFT. (1 randomly generated PNG). That is what you are buying when you spend the 0.3 ETH + gas. Nothing more. The team is free to do what we like with the money received. There is no guarantee of any future utility after the 1st 365 days. At our sole discretion, we may decide to do some cool stuff with the funds, which may include exclusive parties, giveaways, games and competitions."
                 }
             ]
         }
@@ -91,15 +90,15 @@ class RoadMap extends React.Component {
 
     render() {
         return (
-            <div className='roadmap-control' id='roadmap' style={{ textAlign: "center", backgroundColor: "black", backgroundImage: "none" }}>
+            <div className='roadmap-control' id='roadmap' style={{ backgroundColor: "black", backgroundImage: "none" }}>
                 <Container style={{ backgroundColor: "black", paddingTop: 100 }}>
-                    <header style={{fontStyle: "normal", color:"white" }}><span></span> <br/> FAQ's</header>
-                    <Row style={{ paddingTop: 0, alignContent: "center", justifyContent: "center", textAlign: "center" }}>
-                        <Col style={{ color: "white", alignContent: "center", justifyContent: "center", textAlign: "center" }}>
+                    <header style={{fontStyle: "normal", color:"white", textAlign: "center" }}><span></span> <br/> FAQ's</header>
+                    <Row style={{ paddingTop: 0}}>
+                        <Col>
                             {
                                 this.state.roadmaps.map((item, index) => {
                                     return (
-                                        <RoadMapItem style={{ textAlign: "center", color: "black" }} key={index}
+                                        <RoadMapItem style={{ color: "black" }} key={index}
                                             tag={item.tag}
                                             title={item.title}
                                             content={item.content}

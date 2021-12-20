@@ -25,7 +25,7 @@
 .about-description p {
     color: rgb(0, 0, 0);
     font-weight: 900;
-    font-size: 18px;
+    font-size: 15px;
 }
 
 .about-description p span {
@@ -39,4 +39,13 @@
 @font-face {
     font-family: newfont;
     src: url(/src/ReporterRegular.ttf);
+}
+
+@font-face {
+    font-family: newerfont;
+    src: url(/src/StrangerThings-Regular.ttf);
+}
+
+.asdf {
+    font-family: newerfont;
 }

@@ -20,8 +20,7 @@ class RoadMapItem extends React.Component {
                     aria-controls='example'
                     aria-expanded={this.state.open}
                     className='collapse-header-control' >
-                    <div className='collapse-header' style={{textAlign: "center"}}>
-                        <h4>{this.props.tag}</h4>
+                    <div className='collapse-header'>
                         <p>{this.props.title}</p>
                     </div>
                     <BsPlusLg />
