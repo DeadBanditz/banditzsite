@@ -21,7 +21,7 @@
 
 .teamMember-image{
     object-fit: cover;
-    border-radius: 9999px;
+    border-radius: 0px;
     width: 8rem;
     height: 8rem;
     
@@ -30,9 +30,9 @@
 @media (min-width: 767px) {
     .teamMember-image{
         object-fit: cover;
-        border-radius: 9999px;
-        width: 15rem;
-        height: 15rem;
+        border-radius: 0px;
+        width: 10rem;
+        height: 10rem;
         text-align: center;
         justify-content: center;
     }

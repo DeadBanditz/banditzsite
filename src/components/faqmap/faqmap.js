@@ -20,11 +20,6 @@ class RoadMap extends React.Component {
                     content: "Dead Banditz are a collection of 9999 unique western banditz that will live on the blockchain as a Non Fungible Token."
                 },
                 {
-                    tag: '2',
-                    title: "Is there a website?",
-                    content: "https://www.deadbanditz.io/"
-                },
-                {
                     tag: 'Ever going (Early Q1 commencement)',
                     title: "When does minting go live, is there a Presale?",
                     content: "The public sale will take place on the 01/31/2022, starting at 7PM (GMT-5), the Pre-sale will take place on 01/29/2022 at 7PM (GMT-5) with our “GOLDEN TICKET” sale beginning at 6PM (GMT-5) on 01/29/2022."

@@ -86,13 +86,8 @@ function Mint() {
                     </header> */}
                     <p style={{ textAlign: "center" }}>
 
-                        Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
-                        Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
-                        Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
-                        Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
-                        Lorem ipsum Lorem ipsum
-                        <br /><br />
-                        Lorem ipsum Lorem ipsum
+                    The hunt for Golden Gunz Gill begins soon.
+Mint for your chance to claim the $2,000,000 USD ETH reward.
                         {/* <text style={{fontWeight: "bold"}}>
                                 <a style={{textDecoration: "none", color: "white", fontWeight: 900, fontSize: 20}}href="https://instagram.com/dickpixnft"> Instagram </a>
                             </text> 
@@ -113,10 +108,10 @@ function Mint() {
                                 <button className='ybutton'
                                     onClick={(e) => {
                                         console.log("--------")
-                                        e.preventDefault();
-                                        dispatch(connect());
-                                        getData();
-                                    }}>CONNECT</button>
+                                        // e.preventDefault();
+                                        // dispatch(connect());
+                                        // getData();
+                                    }}>COMING SOON</button>
                                 {blockchain.errorMsg !== "" ? (
                                     <div style={{ textAlign: "center", fontSize: 20, color: "white" }}>
                                         {blockchain.errorMsg}

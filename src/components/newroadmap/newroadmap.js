@@ -15,6 +15,12 @@ class RoadMap extends React.Component {
         this.state = {
             roadmaps: [
                 {
+                    tag: 'Ever Going',
+                    title: "The Societies Voice",
+                    content: "We want to guarantee that your voice will be heard and will make a difference, as an established company we are here for the individual’s investing in our NFT projects and players that dive into our world of play.",
+                    content2: "Dead Societies will hold regular open discussions via discord with virtual meetings for holders to join and have their say on ways to increase the longevity of their investment, future projects and to improve the Dead Banditz community."
+                },
+                {
                     tag: 'Q1 2022',
                     title: "Banditz Worldwide",
                     content: "Having already invested over $100,000 into marketing strategies for intial launch sale, we are planning to continue injecting money into further campaigns to maintain momentum with the Dead Banditz community.",
@@ -24,12 +30,6 @@ class RoadMap extends React.Component {
                     tag: 'Q2 2022',
                     title: "Exclusive Shootout Events",
                     content: "When advertising collections around the world, the Dead Societies team will host exclusive fully funded events that will only be accessible to holders of a Dead Banditz NFT, your NFT will be your ticket to these events."
-                },
-                {
-                    tag: 'Ever going (Early Q1 commencement)',
-                    title: "The Societies Voice",
-                    content: "We want to guarantee that your voice will be heard and will make a difference, as an established company we are here for the individual’s investing in our NFT projects and players that dive into our world of play.",
-                    content2: "Dead Societies will hold regular open discussions via discord with virtual meetings for holders to join and have their say on ways to increase the longevity of their investment, future projects and to improve the Dead Banditz community."
                 },
                 {
                     tag: 'Q3 2022',

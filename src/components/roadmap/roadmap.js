@@ -61,7 +61,7 @@ class RoadMap extends React.Component {
     render() {
         return (
             <div className='roadmap-control' id='roadmap' style={{ paddingTop: 50, paddingBottom: 50 }}>
-                <Container style={{ backgroundColor: "black", padding: 30, border: "solid #E8B331 10px", borderRadius: 20 }}>
+                <Container style={{ backgroundColor: "black", padding: 30, border: "solid #E8B331 10px", borderRadius: 20, textAlign: "center" }}>
                     <header style={{ fontWeight: 900, color: "#E8B331" }}><span>DEAD BANDITZ</span> <br /> ROADMAP</header>
                     <p className='roadmap-description'>
                         Welcome to the Dead Banditz Community.<br />Now that you have jumped on the wagon, strap in for a life changing ride!

@@ -19,7 +19,7 @@ class Team extends React.Component {
         this.state = {
             members: [
                 {
-                    img: "https://www.deadbanditz.io/wp-content/uploads/2021/11/JPEG-2-150x150.jpg",
+                    img: "http://localhost:3000/static/media/owl.b740aad4.png",
                     title: "Dutch “ThirdDegree” Tannen ",
                     job: "CO-FOUNDER & Promotions"
                     // des: "10+ Years in Music, 6+ Years in Crypto, & 1,000+ Years in Space.",
@@ -28,7 +28,7 @@ class Team extends React.Component {
 
                 },
                 {
-                    img: "https://www.deadbanditz.io/wp-content/uploads/2021/11/JPEG-2-150x150.jpg",
+                    img: "http://localhost:3000/static/media/owl.b740aad4.png",
                     title: "Big Mack Whitty",
                     job: "CO-FOUNDER",
                     // des: "6+ Years in Software Development, 4+ Years in Crypto.",
@@ -37,7 +37,7 @@ class Team extends React.Component {
 
                 },
                 {
-                    img: "https://www.deadbanditz.io/wp-content/uploads/2021/11/JPEG-2-150x150.jpg",
+                    img: "http://localhost:3000/static/media/owl.b740aad4.png",
                     title: "Davy Crockett",
                     job: "Web Design",
                     // des: "20+ Years In Business & High-Tech, 6+ Years In Crypto.",
@@ -46,7 +46,7 @@ class Team extends React.Component {
 
                 },
                 {
-                    img: "https://www.deadbanditz.io/wp-content/uploads/2021/11/JPEG-2-150x150.jpg",
+                    img: "http://localhost:3000/static/media/owl.b740aad4.png",
                     title: "Buck Carson",
                     job: "Graphic Designer & Artist",
                     // des: "15+ Years in Business & Creative Design, 6+ Years in Crypto.",
@@ -55,7 +55,7 @@ class Team extends React.Component {
 
                 },
                 {
-                    img: "https://www.deadbanditz.io/wp-content/uploads/2021/11/JPEG-2-150x150.jpg",
+                    img: "http://localhost:3000/static/media/owl.b740aad4.png",
                     title: "Clay Bowie",
                     job: "Blockchain Genius",
                     // des: "25+ Years in Finance, 6+ Years in Crypto.",
@@ -64,7 +64,7 @@ class Team extends React.Component {
 
                 },
                 {
-                    img: "https://www.deadbanditz.io/wp-content/uploads/2021/11/JPEG-2-150x150.jpg",
+                    img: "http://localhost:3000/static/media/owl.b740aad4.png",
                     title: "Hot Fire Barrelz",
                     job: "Marketing & Community Manager",
                     // des: "5+ Years in Social Work, 6+ Years in Crypto.",
