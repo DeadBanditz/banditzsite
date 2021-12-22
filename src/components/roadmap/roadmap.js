@@ -24,10 +24,10 @@ class RoadMap extends React.Component {
                     tag: '20%',
                     title: "Bounty for The Legendary Dead Banditz",
                     content: "The Dead Banditz gang will be giving away a total of $3,150,000 USD worth of ETH.",
-                    content2: "If the collection sells out we will be giving away $2,150,000 USD worth of ETH on reveal.",
-                    content3: "$2,000,000 USD worth of ETH will be rewarded to the minter who gets our 1/1 Golden Gunz Gill.",
-                    content4: "In addition to this giveaway we will be also giving away $150,000 USD worth of ETH to 10 minters who get 1 of the 10 Legendary Dead Banditz.",
-                    content5: "These legends a unique collection of 11 individually created NFTs. The remaining $1,000,000 USD worth of ETH will be given away daily for the next 365 days, equalling $2,740 USD worth of ETH per day. This will be given away in the exclusive Golden Gunz channel on our discord server."
+                    content2: "When 9999 Dead Banditz are sold in the collection we will be giving away $2,150,000 USD worth of ETH on reveal.",
+                    content3: "$2,000,000 USD worth of ETH will be rewarded to the minter who gets 1/1 Golden Gunz Gill.",
+                    content4: "In addition to this giveaway we will be also giving away $150,000 USD worth of ETH to 10 minters who receive 1 of the 10 Legendary Dead Banditz.",
+                    content5: "These legends are a unique collection of 11 individually created NFTs. The remaining $1,000,000 USD worth of ETH will be given away daily for the next 365 days, equalling $2,740 USD worth of ETH per day. This will be given away in the exclusive Golden Gunz channel on our discord server."
                 },
                 {
                     tag: '30%',
@@ -47,12 +47,13 @@ class RoadMap extends React.Component {
                 {
                     tag: '80%',
                     title: "Global VIP Recognition",
-                    content: "We will be advertising a selection of our 10 favourite Dead Banditz in 3 Locations – Las Vegas, New York and Sydney.When the collection is released into the advertising streams, we will be holding an exclusive shootout event for all Dead Banditz holders in these locations, if your NFT is selected as a favourite you will be invited to these events with an expense paid trip to any of the mentioned locations.Your Dead Bandit will be your exclusive invite to these events."
+                    content: "We will be advertising a selection of our 10 favourite Dead Banditz in 3 Locations. When the collection is released into the advertising streams, we will be holding an exclusive shootout event for all Dead Banditz holders in these locations, if your NFT is selected as a favourite you will be invited to these events with an expense paid trip to any of the mentioned locations. Your Dead Bandit will be your exclusive invite to these events."
                 },
                 {
                     tag: '100%',
                     title: "A Legend Never Dies",
-                    content: "Phase 2 will begin development.Our 4-phase collection will be a different concept to phase-1 but will be built around Dead Societies and will play a huge role in the creation of our game development. Phase-2 will help increase daily giveaway bonuses and each holder of a Phase-1 Dead Banditz NFT, will receive a discounted mint price for Phase-2."
+                    content: "Phase 2 will begin development.",
+                    content2: "Our 4-stage collection will be a different concept to phase-1 but will be built around Dead Societies and will play a huge role in the creation of our game development. Phase-2 will help increase daily giveaway bonuses and each holder of a Phase-1 Dead Banditz NFT, will receive a discounted mint price for Phase-2."
                 }
             ]
         }

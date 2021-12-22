@@ -101,7 +101,7 @@ Mint for your chance to claim the $2,000,000 USD ETH reward.
                         <span id="inputBox">{mintNum}</span>
                         <BsFilePlusFill color='white' size={40} onClick={() => plus_num()} />
                     </div>
-                    <p style={{ marginTop: 0, marginBottom: 0 }}>0.01 ETH + Gas</p>
+                    <p style={{ marginTop: 0, marginBottom: 0 }}>0.3 ETH + Gas</p>
                     {
                         blockchain.account === "" || blockchain.smartContract === null ?
                             <div className="flex-column">

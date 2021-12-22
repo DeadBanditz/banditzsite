@@ -34,7 +34,7 @@ class About extends React.Component {
                             {/* <div><YButton text='COMING SOON' /></div> */}
                         </Col>
                         <Col md={6} xs={12} className='image-control'>
-                            <img style={{ border: "solid black 10px", borderRadius: 20 }} src={"https://cdn.discordapp.com/attachments/914634855709560862/920797475256799322/IMG_1411.gif"} alt='about gif' />
+                            <img style={{ border: "solid black 10px", borderRadius: 20 }} src={AboutGif} alt='about gif' />
                         </Col>
                     </Row>
                 </Container>

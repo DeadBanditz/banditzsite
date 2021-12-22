@@ -3,7 +3,7 @@ import React from "react";
 import "./newteam.css";
 import TeamMember from "./newteamMember";
 
-import team1 from "../newteam/team/Chibi Labs.jpeg";
+import team1 from "../../assets/owl.png";
 import team2 from "../newteam/team/Chibi Labs.jpeg";
 import team3 from "../newteam/team/Chibi Labs.jpeg";
 import team4 from "../newteam/team/Chibi Labs.jpeg";
@@ -19,7 +19,7 @@ class Team extends React.Component {
         this.state = {
             members: [
                 {
-                    img: "http://localhost:3000/static/media/owl.b740aad4.png",
+                    img: "https://github.com/DeadBanditz/banditzsite/blob/main/src/assets/owl.png?raw=true",
                     title: "Dutch “ThirdDegree” Tannen ",
                     job: "CO-FOUNDER & Promotions"
                     // des: "10+ Years in Music, 6+ Years in Crypto, & 1,000+ Years in Space.",
@@ -28,7 +28,7 @@ class Team extends React.Component {
 
                 },
                 {
-                    img: "http://localhost:3000/static/media/owl.b740aad4.png",
+                    img: "https://github.com/DeadBanditz/banditzsite/blob/main/src/assets/owl.png?raw=true",
                     title: "Big Mack Whitty",
                     job: "CO-FOUNDER",
                     // des: "6+ Years in Software Development, 4+ Years in Crypto.",
@@ -37,7 +37,7 @@ class Team extends React.Component {
 
                 },
                 {
-                    img: "http://localhost:3000/static/media/owl.b740aad4.png",
+                    img: "https://github.com/DeadBanditz/banditzsite/blob/main/src/assets/owl.png?raw=true",
                     title: "Davy Crockett",
                     job: "Web Design",
                     // des: "20+ Years In Business & High-Tech, 6+ Years In Crypto.",
@@ -46,7 +46,7 @@ class Team extends React.Component {
 
                 },
                 {
-                    img: "http://localhost:3000/static/media/owl.b740aad4.png",
+                    img: "https://github.com/DeadBanditz/banditzsite/blob/main/src/assets/owl.png?raw=true",
                     title: "Buck Carson",
                     job: "Graphic Designer & Artist",
                     // des: "15+ Years in Business & Creative Design, 6+ Years in Crypto.",
@@ -55,7 +55,7 @@ class Team extends React.Component {
 
                 },
                 {
-                    img: "http://localhost:3000/static/media/owl.b740aad4.png",
+                    img: "https://github.com/DeadBanditz/banditzsite/blob/main/src/assets/owl.png?raw=true",
                     title: "Clay Bowie",
                     job: "Blockchain Genius",
                     // des: "25+ Years in Finance, 6+ Years in Crypto.",
@@ -64,9 +64,27 @@ class Team extends React.Component {
 
                 },
                 {
-                    img: "http://localhost:3000/static/media/owl.b740aad4.png",
+                    img: "https://github.com/DeadBanditz/banditzsite/blob/main/src/assets/owl.png?raw=true",
                     title: "Hot Fire Barrelz",
                     job: "Marketing & Community Manager",
+                    // des: "5+ Years in Social Work, 6+ Years in Crypto.",
+                    // skills: "Social Consciousness, Inspiration, & Meditation.",
+                    // planet: "JUPITER"
+
+                },
+                {
+                    img: "https://github.com/DeadBanditz/banditzsite/blob/main/src/assets/owl.png?raw=true",
+                    title: "Colt Cassidy",
+                    job: "Discord Manager",
+                    // des: "5+ Years in Social Work, 6+ Years in Crypto.",
+                    // skills: "Social Consciousness, Inspiration, & Meditation.",
+                    // planet: "JUPITER"
+
+                },
+                {
+                    img: "https://github.com/DeadBanditz/banditzsite/blob/main/src/assets/owl.png?raw=true",
+                    title: "Jackknife Jones",
+                    job: "Financial Operations",
                     // des: "5+ Years in Social Work, 6+ Years in Crypto.",
                     // skills: "Social Consciousness, Inspiration, & Meditation.",
                     // planet: "JUPITER"
