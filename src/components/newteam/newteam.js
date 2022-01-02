@@ -19,7 +19,7 @@ class Team extends React.Component {
         this.state = {
             members: [
                 {
-                    img: "https://github.com/DeadBanditz/banditzsite/blob/main/src/assets/owl.png?raw=true",
+                    img: "https://raw.githubusercontent.com/DeadBanditz/banditzsite/main/src/assets/topitems/1.jpg",
                     title: "Dutch “ThirdDegree” Tannen ",
                     job: "CO-FOUNDER & Promotions"
                     // des: "10+ Years in Music, 6+ Years in Crypto, & 1,000+ Years in Space.",
@@ -28,7 +28,7 @@ class Team extends React.Component {
 
                 },
                 {
-                    img: "https://github.com/DeadBanditz/banditzsite/blob/main/src/assets/owl.png?raw=true",
+                    img: "https://raw.githubusercontent.com/DeadBanditz/banditzsite/main/src/assets/topitems/3.jpg",
                     title: "Big Mack Whitty",
                     job: "CO-FOUNDER",
                     // des: "6+ Years in Software Development, 4+ Years in Crypto.",
@@ -37,8 +37,8 @@ class Team extends React.Component {
 
                 },
                 {
-                    img: "https://github.com/DeadBanditz/banditzsite/blob/main/src/assets/owl.png?raw=true",
-                    title: "Davy Crockett",
+                    img: "https://raw.githubusercontent.com/DeadBanditz/banditzsite/main/src/assets/topitems/2.jpg",
+                    title: "Metaverse Sean",
                     job: "Web Design",
                     // des: "20+ Years In Business & High-Tech, 6+ Years In Crypto.",
                     // skills: "Sales, Tech Implementations, Social Influence, & Surfing.",
@@ -46,7 +46,7 @@ class Team extends React.Component {
 
                 },
                 {
-                    img: "https://github.com/DeadBanditz/banditzsite/blob/main/src/assets/owl.png?raw=true",
+                    img: "https://raw.githubusercontent.com/DeadBanditz/banditzsite/main/src/assets/topitems/4.jpg",
                     title: "Buck Carson",
                     job: "Graphic Designer & Artist",
                     // des: "15+ Years in Business & Creative Design, 6+ Years in Crypto.",
@@ -55,7 +55,7 @@ class Team extends React.Component {
 
                 },
                 {
-                    img: "https://github.com/DeadBanditz/banditzsite/blob/main/src/assets/owl.png?raw=true",
+                    img: "https://raw.githubusercontent.com/DeadBanditz/banditzsite/main/src/assets/topitems/5.jpg",
                     title: "Clay Bowie",
                     job: "Blockchain Genius",
                     // des: "25+ Years in Finance, 6+ Years in Crypto.",
@@ -64,7 +64,7 @@ class Team extends React.Component {
 
                 },
                 {
-                    img: "https://github.com/DeadBanditz/banditzsite/blob/main/src/assets/owl.png?raw=true",
+                    img: "https://raw.githubusercontent.com/DeadBanditz/banditzsite/main/src/assets/topitems/6.jpg",
                     title: "Hot Fire Barrelz",
                     job: "Marketing & Community Manager",
                     // des: "5+ Years in Social Work, 6+ Years in Crypto.",
@@ -73,7 +73,7 @@ class Team extends React.Component {
 
                 },
                 {
-                    img: "https://github.com/DeadBanditz/banditzsite/blob/main/src/assets/owl.png?raw=true",
+                    img: "https://raw.githubusercontent.com/DeadBanditz/banditzsite/main/src/assets/topitems/7.jpg",
                     title: "Colt Cassidy",
                     job: "Discord Manager",
                     // des: "5+ Years in Social Work, 6+ Years in Crypto.",
@@ -82,7 +82,7 @@ class Team extends React.Component {
 
                 },
                 {
-                    img: "https://github.com/DeadBanditz/banditzsite/blob/main/src/assets/owl.png?raw=true",
+                    img: "https://raw.githubusercontent.com/DeadBanditz/banditzsite/main/src/assets/topitems/8.jpg",
                     title: "Jackknife Jones",
                     job: "Financial Operations",
                     // des: "5+ Years in Social Work, 6+ Years in Crypto.",

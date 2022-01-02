@@ -24,6 +24,7 @@ class TeamMember extends React.Component{
                             <h3 style={{fontSize: 20}}>{this.props.job}</h3>
                             
                         </div>
+                        {/* <div><img style={{height: 30}}src="https://raw.githubusercontent.com/DeadBanditz/banditzsite/main/src/assets/topitems/1.jpg"></img></div> */}
                         {/* <div className="g-text-base">
                             <p className="g-text-gray-400" style={{color: "white"}}>
                                 <text className="newThing" style={{fontSize: 16}}>BIO:  <br/></text> {'   ' + this.props.des}

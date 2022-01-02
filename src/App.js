@@ -55,9 +55,10 @@ class App extends React.Component {
         {/* <NewRoadMap /> */}
         {/* <FounderThing /> */}
         {/* <JoinCommunity /> */}
-        <NewTeam />
+
         {/* <TopItems /> */}
         <FaqMap />
+        <NewTeam />
         <Footer />
       </div>
     );
