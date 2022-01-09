@@ -18,6 +18,7 @@ import FounderThing from './components/founderthing/founderthing';
 import FaqMap from './components/faqmap/faqmap';
 // import il from './assets/CenterPic.png';
 import './assets/newStyle.css';
+// import Team from './components/team/team';
 
 class App extends React.Component {
 
@@ -58,7 +59,8 @@ class App extends React.Component {
 
         {/* <TopItems /> */}
         <FaqMap />
-        <NewTeam />
+        <Team />
+        {/* <NewTeam /> */}
         <Footer />
       </div>
     );

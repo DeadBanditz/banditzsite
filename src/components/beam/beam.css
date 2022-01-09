@@ -1,0 +1,25 @@
+.beam-control header {
+    font-style: italic;
+    font-size: 50px;
+    font-weight: 900;
+    color: black;
+    margin-bottom: 20px;
+    text-align: center;
+    font-style: "normal";
+}
+
+.beam-control {
+    padding-bottom: 60px;
+    padding-top: 60px;
+    background-color: #242323;
+}
+
+.beam-control header span {
+    color: #000000;
+    font-style: "normal"
+}
+
+.beam-control-card{
+    justify-content: center;
+    text-align: center
+}

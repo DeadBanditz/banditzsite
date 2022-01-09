@@ -7,13 +7,15 @@
 .teammember-control img {
     width: 100%;
     text-align: center;
-    border: solid black 10px;
+    border: solid black 2px;
     border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .teammember-description {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: space-between;
     margin-top: 20px;
@@ -21,20 +23,23 @@
 }
 
 .teammember-name {
-    font-size: 20px;
-    line-height: 30px;
-    font-style: italic;
+    font-size: 30px;
+    font-weight: 400;
+    font-style: normal;
+    /* font-style: italic; */
     color: white;
-    font-weight: 700;
+    font-weight: bold;
     text-align: center;
+    /* padding-left: 30px 20px; */
 }
 
 .teammember-occupation {
-    font-size: 15px;
-    line-height: 20px;
-    color: black;
-    padding: 6px;
-    border-radius: 4px;
-    background-color: #ffffff;;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    color: #ffffff;
+    padding: 5px 50px;
+    /* border-radius: 0px; */
     text-align: center;
+    padding-bottom: 20px;
 }

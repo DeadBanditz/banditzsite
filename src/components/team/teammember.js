@@ -9,8 +9,9 @@ class TeamMember extends React.Component {
             <div className='teammember-control' style={{textAlign: "center", justifyContent: "center"}}>
                 <img style={{maxHeight: 500, maxWidth: 500}}src={this.props.imageUrl} alt='team member'/>
                 <div className='teammember-description'>
-                    <p className='teammember-name'>@{this.props.name}</p>
+                    <p className='teammember-name'>{this.props.name}</p>
                     <p className='teammember-occupation'>{this.props.title}</p>
+                    <br/>
                 </div>
             </div>
         );
