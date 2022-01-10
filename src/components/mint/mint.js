@@ -79,7 +79,8 @@ function Mint() {
     return (
         <div className='mint-control' id='mint'>
             <Container style={{textAlign: "center"}}>
-                <img className="mintimage" src={"https://cdn.discordapp.com/attachments/197452746293641216/920889809860448276/DeadBanditz_MintNow-01.png"} alt='mint gif' />
+                {/* USE THIS ONCE MINTING IS LIVE <img className="mintimage" src={"https://cdn.discordapp.com/attachments/197452746293641216/920889809860448276/DeadBanditz_MintNow-01.png"} alt='mint gif' /> */}
+                <img className="mintimage" src={"https://github.com/DeadBanditz/banditzsite/blob/main/src/assets/DB_MintBanner-01.png?raw=true"} alt='mint gif' />
                 <Row style={{ textAlign: "center" }}>
                     <text className='mint-description'>
                     {/* <header><text style={{ color: "#E8B331" }}><br/></text>
