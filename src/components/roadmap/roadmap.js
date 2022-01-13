@@ -47,7 +47,9 @@ class RoadMap extends React.Component {
                 {
                     tag: '80%',
                     title: "Global VIP Recognition",
-                    content: "We will be advertising a selection of our 10 favourite Dead Banditz in 3 Locations. When the collection is released into the advertising streams, we will be holding an exclusive shootout event for all Dead Banditz holders in these locations, if your NFT is selected as a favourite you will be invited to these events with an expense paid trip to any of the mentioned locations. Your Dead Bandit will be your exclusive invite to these events."
+                    content: "We will be advertising a selection of our 10 favourite Dead Banditz in 3 locations of the United States and Australia- New York, Las Vegas and Sydney. Once the collection is released to minters and advertising streams, we will be holding exclusive shootout events for all Dead Banditz members in these locations, if your Dead Bandit is selected as a favourite, you will be invited to the shootout events with an expense paid trip to the location where you Dead Bandit will be advertised and displayed. ",
+                    content2: "Having a Dead Bandit in your OpenSea account will also be your invite to access the exclusive shootout events.",
+                    content3: "We have some serious things planned for these events including super car racing, nightclub VIP parties, private box tickets to NBA, NFL and other events."
                 },
                 {
                     tag: '100%',

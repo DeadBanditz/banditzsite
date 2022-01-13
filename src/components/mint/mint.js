@@ -87,7 +87,7 @@ function Mint() {
                     </header> */}
                     <p style={{ textAlign: "center" }}>
 
-                    The hunt for Golden Gunz Gill begins soon.
+                    The hunt for Golden Gunz Gill begins soon.<br/>
 Mint for your chance to claim the $2,000,000 USD ETH reward.
                         {/* <text style={{fontWeight: "bold"}}>
                                 <a style={{textDecoration: "none", color: "white", fontWeight: 900, fontSize: 20}}href="https://instagram.com/dickpixnft"> Instagram </a>
