@@ -19,6 +19,8 @@ function Mint() {
     const [feedback, setFeedback] = useState("");
     const [claimingNft, setClaimingNft] = useState(false);
     const [mintNum, setMintNum] = useState(0)
+    const [mintNumTwo, setMintNumTwo] = useState(0)
+    const [mintNumThree, setMintNumThree] = useState(0)
     const claimNFTs = (_amount) => {
         _amount = document.getElementById("inputBox").textContent;
         if (_amount <= 0) {
@@ -76,19 +78,144 @@ function Mint() {
         if (mintNum <= 0) return;
         setMintNum(mintNum - 1)
     }
+
+    const plus_numTwo = () => {
+        // const {mintNum} = this.state;
+        if (mintNumTwo >= 25) return;
+        setMintNumTwo(mintNumTwo + 1);
+        // if (mintNum == 25) return;
+    }
+    const minus_numTwo = () => {
+        // const {mintNum} = this.state;
+        if (mintNumTwo <= 0) return;
+        setMintNumTwo(mintNumTwo - 1)
+    }
+
+    const plus_numThree = () => {
+        // const {mintNum} = this.state;
+        if (mintNumThree >= 25) return;
+        setMintNumThree(mintNumThree + 1);
+        // if (mintNum == 25) return;
+    }
+    const minus_numThree = () => {
+        // const {mintNum} = this.state;
+        if (mintNumThree <= 0) return;
+        setMintNumThree(mintNumThree - 1)
+    }
+    
     return (
         <div className='mint-control' id='mint'>
-            <Container style={{textAlign: "center"}}>
+            <Container style={{ textAlign: "center"}}>
                 {/* USE THIS ONCE MINTING IS LIVE <img className="mintimage" src={"https://cdn.discordapp.com/attachments/197452746293641216/920889809860448276/DeadBanditz_MintNow-01.png"} alt='mint gif' /> */}
                 <img className="mintimage" src={"https://github.com/DeadBanditz/banditzsite/blob/main/src/assets/DB_MintBanner-01.png?raw=true"} alt='mint gif' />
-                <Row style={{ textAlign: "center" }}>
+                <br/>
+                <br/>
+                <text style={{ color: "white", fontSize: 30 }} className="asdf">When each stage becomes available, mint your Dead Banditz here.</text>
+                <div className='threeButtons' style={{alignItems: "center", alignContent: "center", justifyContent: "center",}}>
+                <Row style={{ textAlign: "center", paddingLeft: 20, paddingRight: 20}}>
+                    <text className='mint-description'>
+                        {/* <header><text style={{ color: "#E8B331" }}><br/></text>
+                    </header> */}
+                        <p style={{ textAlign: "center" }}>
+                            <text style={{ color: "#E8B331", fontSize: 25 }} className="asdf">Stage 1</text>
+                            {/* <text style={{fontWeight: "bold"}}>
+                                <a style={{textDecoration: "none", color: "white", fontWeight: 900, fontSize: 20}}href="https://instagram.com/dickpixnft"> Instagram </a>
+                            </text> 
+                            and 
+                            <text style={{fontWeight: "bold"}}>
+                                <a style={{textDecoration: "none", color: "white", fontWeight: 900, fontSize: 20}}href="https://twitter.com/thedickpixnft"> Twitter!</a>
+                            </text> */}
+                        </p>
+                        <div className='number-control'>
+                            <BsFileMinusFill color='white' size={40} onClick={() => minus_num()} />
+                            <span id="inputBox">{mintNum}</span>
+                            <BsFilePlusFill color='white' size={40} onClick={() => plus_num()} />
+                        </div>
+                        <p style={{ marginTop: 0, marginBottom: 0 }}>0.075 ETH + Gas</p>
+                        {
+                            blockchain.account === "" || blockchain.smartContract === null ?
+                                <div className="flex-column">
+                                    <button className='ybutton'
+                                        onClick={(e) => {
+                                            console.log("--------")
+                                            // e.preventDefault();
+                                            // dispatch(connect());
+                                            // getData();
+                                        }}>COMING SOON</button>
+                                    {blockchain.errorMsg !== "" ? (
+                                        <div style={{ textAlign: "center", fontSize: 20, color: "white" }}>
+                                            {blockchain.errorMsg}
+                                        </div>
+
+                                    ) : null}
+                                </div>
+                                :
+                                <button className='ybutton'
+                                    onClick={(e) => {
+                                        e.preventDefault();
+                                        claimNFTs(1);
+                                        getData();
+                                    }}>{claimingNft ? "BUSY" : "MINT"}</button>
+                        }
+                        <text className='mint-description'></text>
+                    </text>
+                </Row>
+                <Row style={{ textAlign: "center", paddingLeft: 20, paddingRight: 20 }}>
+                    <text className='mint-description'>
+                        {/* <header><text style={{ color: "#E8B331" }}><br/></text>
+                    </header> */}
+                        <p style={{ textAlign: "center" }}>
+
+                        <text style={{ color: "#E8B331", fontSize: 25 }} className="asdf">Stage 2</text>
+                            {/* <text style={{fontWeight: "bold"}}>
+                                <a style={{textDecoration: "none", color: "white", fontWeight: 900, fontSize: 20}}href="https://instagram.com/dickpixnft"> Instagram </a>
+                            </text> 
+                            and 
+                            <text style={{fontWeight: "bold"}}>
+                                <a style={{textDecoration: "none", color: "white", fontWeight: 900, fontSize: 20}}href="https://twitter.com/thedickpixnft"> Twitter!</a>
+                            </text> */}
+                        </p>
+                        <div className='number-control'>
+                            <BsFileMinusFill color='white' size={40} onClick={() => minus_numTwo()} />
+                            <span id="inputBox">{mintNumTwo}</span>
+                            <BsFilePlusFill color='white' size={40} onClick={() => plus_numTwo()} />
+                        </div>
+                        <p style={{ marginTop: 0, marginBottom: 0 }}>0.085 ETH + Gas</p>
+                        {
+                            blockchain.account === "" || blockchain.smartContract === null ?
+                                <div className="flex-column">
+                                    <button className='ybutton'
+                                        onClick={(e) => {
+                                            console.log("--------")
+                                            // e.preventDefault();
+                                            // dispatch(connect());
+                                            // getData();
+                                        }}>COMING SOON</button>
+                                    {blockchain.errorMsg !== "" ? (
+                                        <div style={{ textAlign: "center", fontSize: 20, color: "white" }}>
+                                            {blockchain.errorMsg}
+                                        </div>
+
+                                    ) : null}
+                                </div>
+                                :
+                                <button className='ybutton'
+                                    onClick={(e) => {
+                                        e.preventDefault();
+                                        claimNFTs(1);
+                                        getData();
+                                    }}>{claimingNft ? "BUSY" : "MINT"}</button>
+                        }
+                        <text className='mint-description'></text>
+                    </text>
+                </Row>
+                <Row style={{ textAlign: "center", paddingLeft: 20, paddingRight: 20 }}>
                     <text className='mint-description'>
                     {/* <header><text style={{ color: "#E8B331" }}><br/></text>
                     </header> */}
                     <p style={{ textAlign: "center" }}>
 
-                    The hunt for Golden Gunz Gill begins soon.<br/>
-Mint for your chance to claim the $2,000,000 USD ETH reward.
+                    <text style={{ color: "#E8B331", fontSize: 25 }} className="asdf">Stage 3</text>
                         {/* <text style={{fontWeight: "bold"}}>
                                 <a style={{textDecoration: "none", color: "white", fontWeight: 900, fontSize: 20}}href="https://instagram.com/dickpixnft"> Instagram </a>
                             </text> 
@@ -98,11 +225,11 @@ Mint for your chance to claim the $2,000,000 USD ETH reward.
                             </text> */}
                     </p>
                     <div className='number-control'>
-                        <BsFileMinusFill color='white' size={40} onClick={() => minus_num()} />
-                        <span id="inputBox">{mintNum}</span>
-                        <BsFilePlusFill color='white' size={40} onClick={() => plus_num()} />
+                        <BsFileMinusFill color='white' size={40} onClick={() => minus_numThree()} />
+                        <span id="inputBox">{mintNumThree}</span>
+                        <BsFilePlusFill color='white' size={40} onClick={() => plus_numThree()} />
                     </div>
-                    <p style={{ marginTop: 0, marginBottom: 0 }}>0.3 ETH + Gas</p>
+                    <p style={{ marginTop: 0, marginBottom: 0 }}>0.095 ETH + Gas</p>
                     {
                         blockchain.account === "" || blockchain.smartContract === null ?
                             <div className="flex-column">
@@ -131,6 +258,7 @@ Mint for your chance to claim the $2,000,000 USD ETH reward.
                     <text className='mint-description'></text>
                     </text>
                 </Row>
+                </div>
             </Container>
         </div>
     );

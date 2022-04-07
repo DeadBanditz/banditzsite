@@ -11,6 +11,7 @@
     padding-top: 60px;
     padding-bottom: 60px;
     text-align: "center";
+    flex-direction: row;
 }
 
 
@@ -94,6 +95,10 @@
     background-repeat: no-repeat;
 }
 
+.threeButtons {
+    display: block;
+    margin: auto;
+}
 @media (min-width: 767px) {
     .mintimage {
         width: 80%;
@@ -106,6 +111,11 @@
         background-image: url(https://github.com/DeadBanditz/banditzsite/blob/main/src/assets/696845.png?raw=true);
         background-size: cover;
         background-repeat: no-repeat;
+    }
+    .threeButtons {
+        
+        display: flex;
+        margin: auto;
     }
 
 }

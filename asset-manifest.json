@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/banditzsite/static/css/main.565afbad.chunk.css",
-    "main.js": "/banditzsite/static/js/main.6af64230.chunk.js",
-    "main.js.map": "/banditzsite/static/js/main.6af64230.chunk.js.map",
+    "main.css": "/banditzsite/static/css/main.aaff28c5.chunk.css",
+    "main.js": "/banditzsite/static/js/main.0465f4f0.chunk.js",
+    "main.js.map": "/banditzsite/static/js/main.0465f4f0.chunk.js.map",
     "runtime-main.js": "/banditzsite/static/js/runtime-main.4b7a4291.js",
     "runtime-main.js.map": "/banditzsite/static/js/runtime-main.4b7a4291.js.map",
     "static/css/2.d8cb5cde.chunk.css": "/banditzsite/static/css/2.d8cb5cde.chunk.css",
-    "static/js/2.35748ac0.chunk.js": "/banditzsite/static/js/2.35748ac0.chunk.js",
-    "static/js/2.35748ac0.chunk.js.map": "/banditzsite/static/js/2.35748ac0.chunk.js.map",
+    "static/js/2.4131562e.chunk.js": "/banditzsite/static/js/2.4131562e.chunk.js",
+    "static/js/2.4131562e.chunk.js.map": "/banditzsite/static/js/2.4131562e.chunk.js.map",
     "static/js/3.85a46d46.chunk.js": "/banditzsite/static/js/3.85a46d46.chunk.js",
     "static/js/3.85a46d46.chunk.js.map": "/banditzsite/static/js/3.85a46d46.chunk.js.map",
     "index.html": "/banditzsite/index.html",
     "static/css/2.d8cb5cde.chunk.css.map": "/banditzsite/static/css/2.d8cb5cde.chunk.css.map",
-    "static/css/main.565afbad.chunk.css.map": "/banditzsite/static/css/main.565afbad.chunk.css.map",
-    "static/js/2.35748ac0.chunk.js.LICENSE.txt": "/banditzsite/static/js/2.35748ac0.chunk.js.LICENSE.txt",
+    "static/css/main.aaff28c5.chunk.css.map": "/banditzsite/static/css/main.aaff28c5.chunk.css.map",
+    "static/js/2.4131562e.chunk.js.LICENSE.txt": "/banditzsite/static/js/2.4131562e.chunk.js.LICENSE.txt",
     "static/media/Chibi Labs.1df3a3d3.jpeg": "/banditzsite/static/media/Chibi Labs.1df3a3d3.jpeg",
     "static/media/Collection_GIF.c7a8697a.gif": "/banditzsite/static/media/Collection_GIF.c7a8697a.gif",
     "static/media/join-community.css": "/banditzsite/static/media/DickPix.be6bd296.png",
@@ -43,8 +43,8 @@
   "entrypoints": [
     "static/js/runtime-main.4b7a4291.js",
     "static/css/2.d8cb5cde.chunk.css",
-    "static/js/2.35748ac0.chunk.js",
-    "static/css/main.565afbad.chunk.css",
-    "static/js/main.6af64230.chunk.js"
+    "static/js/2.4131562e.chunk.js",
+    "static/css/main.aaff28c5.chunk.css",
+    "static/js/main.0465f4f0.chunk.js"
   ]
 }
